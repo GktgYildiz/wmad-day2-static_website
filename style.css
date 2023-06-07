@@ -20,7 +20,14 @@ body {
     font-family: "argonite";
     src: url(./fonts/stone\ orgonite.woff);
 }
+h2{
+    font-size: 3rem;
+    line-height: 125%;
+    padding: 1rem 0;
+}
 .links{
     display: none; /* will be done like burger thats why it is none*/
-    
+}
+.logo{
+    display: flex; 
 }
