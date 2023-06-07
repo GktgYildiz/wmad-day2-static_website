@@ -4,39 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"> <!--I attached the CSS file by using link-->
     <title>KAS:ST</title>
 </head>
 <body>
-<section> <!-- This will be the front page-->
-    <nav> <!-- Navbar section here-->
-        <div class="logo"> <!--LOGO GOES HERE-->
-            <img src="images/kasst-logo-1.png" alt="KAS:ST logo"> 
-            <h1>KAS:ST</h1>
+    <section class="front-page"> <!-- This will be the front page-->
+        <img class="bg1" src="/wmad-day2-static_website/images/bg1.jpeg" alt="fall from sky">
+        <nav> <!-- Navbar section here-->
+            <div class="logo"> <!--LOGO GOES HERE-->
+                <img src="images/favicon-2-150x150.png" alt="KAS:ST logo"> 
+                <h1>KAS:ST</h1>
+            </div>
+            <div class="links"> <!--links section here-->
+                <a href="#">ART</a>
+                <a href="#">About</a>
+                <a href="#">Shop</a>
+            </div>
+            <svg width="44" height="18" viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line class="line" y1="1" x2="44" y2="1" stroke="white" stroke-width="2"/>
+                <line class="line" y1="9" x2="27" y2="9" stroke="white" stroke-width="2"/>
+                <line class="line" y1="17" x2="11" y2="17" stroke="white" stroke-width="2"/>
+            </svg>
+        </nav>
+            <div class="motto-welcoming"> <!-- This will be the first thing that user will read it-->
+                <h2>Set your mind & lungs free</h2>
+                <h3>Check Out Our Latest Released Singles 💽👇</h3>
+                <div class="ctas"> <!--ctas:Call To Action -->
+                    <button class="cta-sec">Explore Albums</button>
+                    <button class="cta-main">Concert Tickets</button>
+                </div>
+            </div>
+    </section>
+    <section class="clips">
+        <div class="clips-description">
+            <h2>Kas:st ART</h2>
+            <h3>It's time to heal your soul</h3>
         </div>
-
-        <div class="links"> <!--links section here-->
-            <a href="#">About</a>
-            <a href="#">Tours</a>
-            <a href="#">Shop</a>
+        <div class="videos">
+            <div class="vtopia">
+                <h3>In Memory Of The World We Lost.</h3>
+            <video src="/wmad-day2-static_website/images/videos/AL044 - KAS-ST - VTOPIA (Official video).mp4#t=2"></video>
+            </div>
+            <div class="eightyfour">
+                <h3>Why Do We Fall?</h3>
+            <video src="/wmad-day2-static_website/images/videos/KAS-ST - 2084 (Official Video).mp4#t=2"></video>    
         </div>
-        <svg width="44" height="18" viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line class="line" y1="1" x2="44" y2="1" stroke="white" stroke-width="2"/>
-            <line class="line" y1="9" x2="27" y2="9" stroke="white" stroke-width="2"/>
-            <line class="line" y1="17" x2="11" y2="17" stroke="white" stroke-width="2"/>
-        </svg>
-
-    </nav>
-
-        <div class="motto-welcoming"> <!-- This will be the first thing that user will read it-->
-            <h2>Set your mind & lungs free</h2>
-            <h3>Check Out Our Latest Released Singles 💽👇</h3>
+            <div class="holdme">
+                <h3>DANCE, when you're BROKEN open.</h3>
+            <video src="/wmad-day2-static_website/images/videos/KAS-ST - Hold Me To The Light (Official video) feat Be No Rain.mp4#t=2"></video>
+            </div>
         </div>
-        <div class="ctas"> <!--ctas:Call To Action -->
-            <button class="cta-sec">Explore Albums</button>
-            <button class="cta-main">Tickets</button>
+    </section>
+    <section class="about">
+        <div class="our-story">
+            <h2>Our Story...</h2>
+            <p>Techno producers from Paris, <strong>KAS:ST</strong> follows the vision of an artistic universe 
+                which fluctuates between hypnotic rhythms, dark and mind-blowing emotions. Their live set will explore 
+                reaching into the <q>Mental & Melodic</q> aspect of Techno Music.
+            </p>
         </div>
-
-</section>
+        <img src="/wmad-day2-static_website/images/about.jpeg" alt="pp of kasst">
+    </section>
 </body>
 </html>
